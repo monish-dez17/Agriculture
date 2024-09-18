@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <input type="hidden" name="access_key" value="5e89ae33-2978-43fb-b269-80977bd6bec8">
+    
+            <input type="hidden" name="redirect" value="contact-thankyou-page">
+    
+            <input type="hidden" name="subject" value="Hey Monish New feedback for your website">
+    
+           <h1> Admin Login Page</h1>
+           <h4>AssuredHarvest</h4> 
+           <div class="input-box">
+            <input type="text"  name="name" placeholder="Enter your name" required>
+            <i class='bx bxs-user' ></i>
+        </div>
+              
+            <div class="input-box">
+                <input type="email"  name="email" placeholder="Enter your email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class=" input-box">
+                <input type="tel" name="Phone no." placeholder="Phone no." required>
+                <i class='bx bxs-phone'></i>
+            </div>
+            <div class="input-box">
+                 <input type='password' name="password" placeholder="Password" required>
+                 <i class='bx bx-lock-alt'></i>
+            </div>
+           
+            <div class="remember-forget">
+                <label for="f"><input type="checkbox" id="f">Are you buyer?</label>
+                <a  target = "_blank " href="buyer.htm">Click here</a>
+            </div>
+            <button type="submit" target="_blank" onclick="next_page()" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have account?<a target = "_blank " href=" https://accounts.google.com/lifecycle/steps/signup/name?continue=https://myaccount.google.com?utm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&ddm=0&dsh=S1459642481:1719071720778855&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AC3PFD5R0E-kU-y6TzlvYhLEkWz-fGNeVPFPBKACyOU7gpB23hEqqISd0joV7Jbf"> Register</a></p>
+            </div>
+        <script>
+            function next_page(){
+                window.location.href="admin.htm";
+            }
+        </script>
+        </form>
+    </div>
+</body>
+</html>
